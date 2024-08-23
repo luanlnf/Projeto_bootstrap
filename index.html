@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tibia RPG</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Ga+Maamli&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+        <header id="cabecalho">
+            <div class="navbar navbar-expand-lg">
+                <div class="container">
+                    <div class="logo">
+                        <a href="/index.html">
+                            <img src="/imagens/tibiaGAME.png" alt="tibiaGAME" width="220" height="200">
+                            <h1>Tibia RPG</h1>
+                        </a>
+                    </div>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                        <ul class="nav navbar-nav nav-pills"> 
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#sobre">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#classes">Classes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#perguntas">Perguntas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#midia">Mídia</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button id="btn-checar-avisos" type="button" class="btn btn-warning">Jogar</button>
+                </div>
+            </div>
+        </header>
+        <main class="container">
+            <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+                <img src="https://wallpaperaccess.com/full/4270123.jpg" alt="imagem do jogo" width="1400" height="600">
+                <section id="sobre">
+                    <h2>Sobre o Tibia</h2>
+                    <p>
+                        Tibia é um jogo de interpretação de personagens online e em massa para multijogadores, o chamado MMORPG. Criado em 1997, é um dos jogos mais antigos do gênero. Neste mundo de fantasia medieval, pessoas de todo o mundo se encontram para aventuras,
+                    evolução constante de seus personagens e muita diversão. 
+                    </p>
+                    <p>
+                        Atuando como cavaleiros, paladinos, magos ou druidas, os jogadores enfrentam o desafio de desenvolver as habilidades de seus personagens, explorando uma grande variedade de áreas dominadas por perigosas criaturas e interagindo com outros jogadores em um nível social e diplomático.
+                        A liberdade única que os jogadores desfrutam em Tibia acaba por criar uma experiência de jogo extremamente imersiva.
+                    </p>
+                    <!-- SOBRE CARD 1 -->
+                <div class="row" id="sobre-card">
+                    <div class="col-md-6">
+                        <img src="/imagens/quest.jpg" alt="quest">
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-body">
+                                <h3 class="card-title">Quests dentro do jogo</h3>
+                                <h5 class="card-subtitle">Principais Características</h5>
+                                <p class="card-text">
+                                    Quests são missões em que um jogador ou vários jogadores resolvem enigmas para receber uma recompensa, grande parte das quests têm como desafio matar alguma criatura. Para completar algumas você precisa ter um level mínimo.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SOBRE CARD 2 -->
+                <div class="row" id="sobre-card">
+                    <div class="col-md-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-body">
+                                <h3 class="card-title">RPG da velha guarda</h3>
+                                <h5 class="card-subtitle">Jogadores antigos e novos</h5>
+                                <p class="card-text">
+                                    Podemos dizer que a maioria dos jogadores tem idade entra 20 á 30 anos, mas mesmo tendo bastante players adultos, os jovens se encantam com o jogo, mesmo com graficos em pixel, a jogabilidade no game transforma ele em outro nivel, existe varios tipos de modo para ser jogado com os amigos, como quests, party, PVP.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="/imagens/pt.jpg" alt="jogadores onlines">
+                    </div>
+                </div>
+                <!-- SOBRE CARD 3 -->
+                <div class="row" id="sobre-card">
+                    <div class="col-md-6">
+                        <img src="/imagens/runa.jpg" alt="itens">
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-body">
+                                <h3 class="card-title">Itens do jogo</h3>
+                                <h5 class="card-subtitle">Varias Opções</h5>
+                                <p class="card-text">
+                                    A cada update cresce o número de itens encontrados no Tibia. Muitos deles podem ser comercializados por jogadores dentro do mercado encontrado nos depots das cidades. No mercado é possível ver os valores praticados de um determinado item em um servidor, como também informações sobre o peso, as descrições, os ataques e defesas de armas e escudos. Existem tantos itens catalogados com tantos propósitos diferentes que essa lista foi dividida em diferentes categorias. Você ainda pode dar uma olhada na lista de Objetos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </section>
+                <section id="classes">
+                    <h2>Classes e itens </h2>
+                        <div class="container">
+                            <div class="row" id="grid-personagens">
+                                        <!-- knight -->
+                                <div class="col-md-4">
+                                            <div class="card text-bg-dark" id="card-personagem">
+                                                <img src="/imagens/Knight.png" />
+                                                <div class="card-body">
+                                                    <h3 class="card-title">Knight</h3>
+                                                    <h4 class="card-subtitle">Elite Knight</h4>
+                                                    <p class="card-text">
+                                                        Um Knight é um guerreiro forte e sempre pronto para uma batalha. Em combate em grupo, o Knight se posiciona sempre na linha de frente para proteger os demais jogadores. Ele é aquele que leva os maiores hits e não se rende ao ser cercado por muitos inimigos. Assim, as vantagens do knight são um forte escudo e armas. O Knight causa Dano Físico, mas ele também pode fazer um tipo secundário de dano usando armas mágicas encantadas, por exemplo. Devido à sua força e usando certas táticas, um Knight é capaz de matar criaturas muito fortes.
+                                                    </p>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- sorcerer -->
+                            <div class="col-md-4">
+                                <div class="card text-bg-dark" id="card-personagem">
+                                    <img src="/imagens/Sorcerer.png" />
+                                    <div class="card-body">
+                                        <h3 class="card-title">Sorcerer</h3>
+                                        <h4 class="card-subtitle">Master Sorcerer</h4>
+                                        <p class="card-text">
+                                            Um Sorcerer, mestre arcano das artes negras, dedica sua vida ao estudo da magia. Ele é profundamente convicto que superioridade encontra-se na sabedoria e não na força física. Sorcerer causa dano mágico e, assim como o Druid, ele é capaz de controlar elementos. Neste caso o fogo e a eletricidade.
+                                        </p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Paladin -->
+                        <div class="col-md-4">
+                            <div class="card text-bg-dark" id="card-personagem">
+                                <img src="/imagens/Paladin.png" />
+                                <div class="card-body">
+                                    <h3 class="card-title">Paladin</h3>
+                                    <h4 class="card-subtitle">Royal Paladin</h4>
+                                    <p class="card-text">
+                                        O Paladin, um arqueiro sagrado, rápido e infalível, ataca mortalmente seus inimigos à distância com tal velocidade que ele parece ser invisível para seus alvos. Paladin causa dano físico, mas também domina o dano sagrado, devido a sua força espiritual, e usa algumas magias desse gênero para derrotar rapidamente seus oponentes. Seu potencial mágico é tão equilibrado quanto sua resistência física.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Druid -->
+                        <div class="col-md-4">
+                            <div class="card text-bg-dark" id="card-personagem">
+                                <img src="/imagens/Druid.png" />
+                                <div class="card-body">
+                                    <h3 class="card-title">Druid</h3>
+                                    <h4 class="card-subtitle">Elder Druid</h4>
+                                    <p class="card-text">
+                                        O Druid é devotado e relacionado com a natureza, de onde provém toda a sua força. 
+                                        Ele pratica o controle sobre elementos da natureza para o benefício de todos os humanos. 
+                                        Druids conhecem a arte da cura, e possuem mais magias curativas do que qualquer outra vocação. O Druid causa danos mágicos. Além de rods, ele pode usar elementos como ice ou earth, por exemplo.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Montaria -->
+                        <div class="col-md-4">
+                            <div class="card text-bg-dark" id="card-personagem">
+                                <img src="/imagens/montaria.png" />
+                                <div class="card-body">
+                                    <h3 class="card-title">Montaria</h3>
+                                    <h4 class="card-subtitle">Um boost de velocidade</h4>
+                                    <p class="card-text">
+                                        O sistema de montarias foi adicionado no Update de Natal 2010.
+                                        Atualmente existem 231 montarias, no entanto nem todas podem ser domadas. Se você encontrar ou comprar um dos itens de domar, fale com o NPC Lothar ele irá te dar informações sobre quais criaturas podem ser domadas usando tal item. Os itens de domar podem ser dropados de diferentes criaturas existentes no Tibia, através de Quests ou World Changes.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="perguntas">
+                    <h2>Duvidas sobre o jogo</h2>
+                <P>
+                    Sempre acaba surgindo aquelas dúvidas quando se esta pensando em iniciar uma nova jornada no mundo de um jogo antigo, então para facilitar, aqui vão as respostas de perguntas mais frequentes:
+                </P>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta1">
+                                EM QUAL SITE ESTÁ DISPONÍVEL O JOGO?
+                            </button>
+                        </div>
+                        <div id="resposta1" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                O jogo está atualmente disponível no site do www.tibia.com.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta2">
+                                QUAIS SÃO OS REQUISITOS DE SISTEMA PARA O JOGO?
+                            </button>
+                        </div>
+                        <div id="resposta2" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <p>
+                                    <strong>Mínimo:</strong> Disponivel em qualquer tipo de computador, por ser graficos baixos, ele roda em qualquer tipo de CPU.
+                                </p>
+                                <p>
+                                    <strong>Recomendado:</strong> Roda até em calculadora!!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta3">
+                                POSSO JOGAR OFFLINE?
+                            </button>
+                        </div>
+                        <div id="resposta3" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Não, você pode jogar o jogo offline. No entanto, á certos recursos, como deixar seu personagem treinando a skill offline.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta4">
+                                HÁ ALGUMA COMPRA NO JOGO?
+                            </button>
+                        </div>
+                        <div id="resposta4" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Sim, há compras no jogo em nosso jogo. Acreditamos em fornecer uma experiência de jogo completa e imersiva, por apenas uma quantia por mês, desfrutarar por meios disponiveis no jogo, como magias, rotas de melhor caça, itens e etc.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p>
+                    Agora o que esta esperando bora jogar!?
+                </p>
+            </div>
+                </section>
+                <section id="midia">
+                    <h2>Midia</h2>
+                    <p>
+                    Depois de tanta explicação sobre o jogo, deixo aqui algumas imagens o jogo, para você ficar querendo jogar!!
+                    </p>
+                    <!-- SlideShow -->
+                    <div class="container carousel-slide">
+                        <div id="carousel-controles1" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="3000">
+                                    <img class="d-block w-100" src="https://files.tecnoblog.net/wp-content/uploads/2022/01/02.png" alt="Imagem de amostra sobre o Jogo tibia 01"/>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img class="d-block w-100" src="https://www.mmos.com.br/f/1997/01/Tibia-Gameplay-3-600x600.png" alt="Imagem de amostra sobre o Jogo tibia 02"/>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img class="d-block w-100" src="https://i.ytimg.com/vi/rVR2byDVFRE/maxresdefault.jpg" alt="Imagem de amostra sobre o Jogo tibia 03"/>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img class="d-block w-100" src="http://s2.glbimg.com/1WP9lLlUbEY9XW0v_khgfVdjt3s=/695x0/s.glbimg.com/po/tt2/f/original/2015/03/26/tibia.jpg" alt="Imagem de amostra sobre o Jogo tibia 04"/>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img class="d-block w-100" src="https://i.redd.it/nljr7x2iuw4y.png" alt="Imagem de amostra sobre o Jogo tibia 05"/>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-controles1" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel-controles1" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                                <div class="carousel-indicators">
+                                    <button type="button"  data-bs-target="#carousel-controles1" data-bs-slide-to="0" class="active"></button>
+                                    <button type="button"  data-bs-target="#carousel-controles1" data-bs-slide-to="1"></button>
+                                    <button type="button"  data-bs-target="#carousel-controles1" data-bs-slide-to="2"></button>
+                                    <button type="button"  data-bs-target="#carousel-controles1" data-bs-slide-to="3"></button>
+                                    <button type="button"  data-bs-target="#carousel-controles1" data-bs-slide-to="4"></button>
+                                    </div>
+                                        </div>
+                                            </div>
+                                                </div>
+                                                <p>
+                                                    Esperamos que tenha curtido esse passeio por Tibia MainIsland, esperamos ouvir sobre suas aventuras!
+                                                </p>                        
+                </section>
+            </div>
+        </main>
+        <!--rodapé da página-->
+    <footer id="social-links">
+        <div class="nos-acompanhe">
+            <ul class="social-links">
+                <li>
+                    <a href="https://www.instagram.com/luan_lnf/" title="Siga-nos no Instagram">
+                        <img src="/icones/insta.png" alt="Logo do Instagram" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/luanlnf" title="Siga-nos no GitHub">
+                        <img src="/icones/github.png" alt="Logo do GitHub" />
+                    </a>
+                </li>
+            </ul>
+            <p>
+                Página ficticia, apenas para estudo em programação!
+            </p>
+        </div>
+        <div>
+            <p>
+                &copy; TibiaGAME - Todos os direitos reservados - 2024.
+                Desenvolvido por Luan Ferreira
+            </p>
+        </div>
+    </footer>
+    <!-- Configuração de Toast -->
+    <div data-bs-autohide="false" class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div class="toast" id="mensagens-alerta">
+            <header class="toast-header">
+                <strong>QUER JOGAR?!</strong>
+            </header>
+            <div class="toast-body">
+                Você será redirecionado para a página onde pode baixar e jogar o game.
+                <div class="mt-2 pt-2 border-top">
+                    <button data-bs-dismiss="toast" class="btn btn-danger">
+                        Não estou interessado 
+                    </button>
+                    <a class="btn btn-success" href="https://www.tibia.com/news/?subtopic=latestnews" target="_blank">Bora lá!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
